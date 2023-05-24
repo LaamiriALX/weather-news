@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title> The weather News </title>
+</head>
+<body>
+    
+    <div class="card">
+        <div>
+            <div class="search">
+                <input type="text" name="" id="search" placeholder="Enter city name" spellcheck="false" >
+                <button onclick="checkweather ()" >
+                    <img src="images/search.png" alt="">
+                </button>
+            </div>
+            <div class="weather">
+                <div class="weather-icon"></div>
+                <h1 >  <span class="temp"></span>°C</h1>
+                <h2 class="city"></h2>
+                <div class="detai">
+                    <div class="col">
+                        <img src="images/humidity.png" alt="">
+                        <div>
+                            <p ><span class="humidity"></span>%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/wind.png" alt="">
+                        <div>
+                            <p ><span class="wind"></span>km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
